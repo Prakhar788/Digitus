@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/blogStyle.css">
+    <link rel="stylesheet" href="../CSS/secondSection.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body  id="body" onscroll="handleScroll()">
+
+    <div class="firstSec">
+        <div id='firstSectionContainer' class="firstSectionContainer">
+          <div class="navBarConntainer">
+            <div class="logo">
+              <img src="../IMAGES/logo.svg" class="logoImage" alt="">
+            </div>
+            <div class="middleOptions">
+              <div class="borderButton">
+                <a class="factLinkContainer" href="/expertise/facturation-electronique/">
+                  Electronic invoicing 2024
+                </a>
+              </div>
+              <div class="addOption" id="firstDropdownButton" onmouseover="showDropdown()">
+                <span onmouseleave="hideDropdown()" class="navBarOpt">Expertise</span>
+                <span onmouseleave="hideDropdown()" id="dropdown1"
+                  class="hover-target submenu absolute group-hover:transition duration-300 shadow-xl">
+                  <div class="dropdownContainer">
+                    <div class="firstDropdownSection">
+                      <div class="dropdownHeader">NOTRE EXPERTISE</div>
+                      <div>Optimize your B2B data exchanges to benefit your productivity in line with your sectoral
+                        requirements</div>
+                    </div>
+                    <div class="secondDropdownSection">
+                      <div>EDI- Electronic Data Interchange</div>
+                      <div>Electronic invoicing</div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+              <div class="addOption" onmouseover="showDropdown2()">
+                <span onmouseleave="hideDropdown2()" class="navBarOpt">Solutions</span>
+                <span onmouseleave="hideDropdown2()" id="dropdown2"
+                  class="hover-target submenu absolute group-hover:transition duration-300 shadow-xl">
+                  <div class="dropdownContainer">
+                    <div class="firstDropdownSection">
+                      <div class="dropdownHeader">NOS SOLUTIONS</div>
+                      <div>Catalyze collaboration within your ecosystem through a wide range of dematerialization solutions
+                        adapted to your needs</div>
+                    </div>
+                    <div class="secondDropdownSection2nd">
+                      <div>Nos solutions</div>
+                      <hr>
+                      <div class="dropdownSeperator">
+                        <div class="rightOptionsForDropdown">
+                          <div class="blackColorFont">On premise</div>
+                          <div class="yellowColorFont">TradeXpress</div>
+                          <div class="yellowColorFont">IBM Sterling</div>
+                          <div class="yellowColorFont">Cleo</div>
+                        </div>
+                        <div>
+                          <div class="blackColorFont">Cloud</div>
+                          <div class="yellowColorFont">Hubtimize®</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+              <div class="addOption" onmouseover="showDropdown3()">
+                <span onmouseleave="hideDropdown3()" class="navBarOpt">Services</span>
+                <div onmouseleave="hideDropdown3()" id="dropdown3"
+                  class="hover-target submenu absolute group-hover:transition duration-300 shadow-xl">
+                  <div class="dropdownContainer">
+                    <div class="firstDropdownSection">
+                      <div class="dropdownHeader">NOS SERVICES</div>
+                      <div>Optimize your B2B data exchanges to benefit your productivity in line with your sectoral
+                        requirements</div>
+                    </div>
+                    <div class="secondDropdownSection3rd">
+                      <div>Nos Services</div>
+                      <hr>
+                      <div class="dropdownSeperator3rd">
+                        <div class="yellowColorFontThird">TMA - Third-party application</div>
+                        <div class="yellowColorFontThird">maintenance</div>
+                        <div class="yellowColorFontThird">Management</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="addOption">
+                Blog
+              </div>
+            </div>
+            <div class="navButton">
+              Get Demo
+            </div>
+            <div class="fropt">
+              <select name="cars" id="cars">
+                <option value="volvo">FR</option>
+                <option value="saab">En</option>
+                <option value="mercedes">Tr</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="mainBodyContainer">
+    
+          <div class="imageContainer">
+            <img
+              src="https:/www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fiso-27001.c9102e6a.webp&w=1080&q=75"
+              class="webIconImage">
+          </div>
+          <h1 class="HeadingContainer">
+            Dematerialization
+            <br>
+            at the service of your business
+          </h1>
+          <div class="descriptionTextContainer">
+            Esalink supports you in the digitalization of your B2B flows
+          </div>
+          <div class="twoButttonContainer">
+            <div class="buttons">Find your EDI solution</div>
+            <div class="buttons">Switch to electronic invoicing</div>
+          </div>
+          <img src="https://www.esalink.com/_next/static/media/globe_white_block.6699e2aa.svg" class="globeIcon" alt="">
+          <div class="bottomImageIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fgenerix-white.e5ab8b0c.webp&w=256&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fcleo-white.ad4618e5.webp&w=128&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FHUBTIMIZE-white.19537ec6.webp&w=256&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fibm-white.7d4e8780.webp&w=128&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fgs1-white.c6b5f462.webp&w=128&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Ffne-white.f8c056bc.webp&w=640&q=75"
+              alt="" class="bottomIcons">
+          </div>
+        </div>
+        
+      </div>
+    <div class="container-1">
+        <div class="buttons">
+            <a href="#" class="myButton active">All Categories</a>
+            <a href="#" class="myButton">EsaLink News</a>
+            <a href="#" class="myButton">Electronic invocing</a>
+            <a href="#" class="myButton">Guide</a>
+            <a href="#" class="myButton">EDI</a>
+        </div>
+
+        <div class="card-container">
+            <div class="card" id="1">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">EsaLink News, Electronic Invocing</p>
+                    <img src="../images/CALENDRIER.jpg" alt="Image 1">
+                </div>
+              <div class="container">
+                <p class="card-para">10/27/2023</p>
+                <a class="card-title" href="#">The latest electronic invoicing calendar: the essential things to remember</a>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+            </div>
+    
+            <div class="card" id="2">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">EsaLink News</p>
+                    <img src="../images/partenariat-1.jpg" alt="Image 2">
+                </div>
+                <div class="container">
+                  <p class="card-para">09/18/2023</p>
+                  <a class="card-title" href="#">EsaLink x IBM x Satisco: a winning synergy of B2B integration</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="3">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">Guide, EDI</p>
+                    <img src="../images/EDI.jpg" alt="Image 3">
+                </div>
+                <div class="container">
+                  <p class="card-para">05/09/2023</p>
+                  <a class="card-title" href="#">EDI: understand everything about Electronic Data Interchange</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="4">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">Electronic invocing, Guide </p>
+                    <img src="../images/Guide-facturation-electronique.jpg" alt="Image 4">
+                </div>
+                <div class="container">
+                  <p class="card-para">02/05/2023</p>
+                  <a class="card-title" href="#">Switch to electronic invoicing: the complete guide for your business</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="5">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">EsaLink News</p>
+                    <img src="../images/partenariat-1 (1).jpg" alt="Image 5">
+                </div>
+                <div class="container">
+                  <p class="card-para">04/25/2023</p>
+                  <a class="card-title" href="#">SER, EsaLink GED partner</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="6">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">Electronic invocing, EDI</p>
+                    <img src="../images/TRANSFORMATION-DIGITALE.jpg" alt="Image 6">
+                </div>
+                <div class="container">
+                  <p class="card-para">04/18/2023</p>
+                  <a class="card-title" href="#">Electronic invoicing, a vector of digital transformation for your business</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="7">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">Electronic invocing</p>
+                    <img src="../images/Systeme-de-Facturation-electronique-B2B-France.jpg" alt="Image 7">
+                </div>
+                <div class="container">
+                  <p class="card-para">04/11/2023</p>
+                  <a class="card-title" href="#">B2B electronic invoicing in France: Everything you need to know about the “Y” diagram of the Clearance model.</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="8">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">EDI</p>
+                    <img src="../images/AS2-EsaLink.jpg" alt="Image 8">
+                </div>
+                <div class="container">
+                  <p class="card-para">04/04/2023</p>
+                  <a class="card-title" href="#">AS2: Secure protocol for the exchange of EDI data between companies</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="9">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">Electronic invocing</p>
+                    <img src="../images/Factur-X.jpg" alt="Image 9">
+                </div>
+                <div class="container">
+                  <p class="card-para">03/28/2023</p>
+                  <a class="card-title" href="#">Factur-X, an essential standard for electronic invoicing</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" id="10">
+                <div class="upper-text">
+                    <p class="upr-txt">EsaLink</p>
+                    <p class="lwr-txt">EsaLink News, EDI</p>
+                    <img src="../images/O2C.jpg" alt="Image 10">
+                </div>
+                <div class="container">
+                  <p class="card-para">03/21/2023</p>
+                  <a class="card-title" href="#">The digitalization of Order to Cash: challenges and advantages for companies</a>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div class="container-2">
+        <h2 class="heading-2">Stay informed of our news!</h2>
+        <div class="newsletter-container">
+            <div class="news-gif">
+                <img src="../images/newsletter.gif" alt="newsletter gif">
+            </div>
+            <div class="news-content">
+                <h1>Newsletter Subscription</h1>
+                <p class="news-text">Click the button and enter your email to receive our latest information.</p>
+                <button class="news-btn">Subscribe to the newsletter</button>
+                <div>
+                    <p class="news-text">By transmitting your email address, you agree that the information entered will be collected, used, exploited and processed by EsaLink to enable the sending of the newsletter.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="home_contacter">
+        <div class="home_texter">
+            <div>
+                <span data-aos="fade-down" data-aos-duration="900"
+                    class="inline-block text-xs text-gray-50 uppercase aos-init aos-animate">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">A question ? </font>
+                        <font style="vertical-align: inherit;">A project ?</font>
+                    </font>
+                </span>
+            </div>
+            <h2 data-aos="fade-up" data-aos-duration="500">Enter your contact details to be quickly contacted by a
+                specialist</h2>
+            <p data-aos="fade-up" data-aos-duration="500">We are here to advise you on all your dematerialization
+                projects.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="500" class="home_inputer">
+            <div class="home_wti">
+                <input type="text" placeholder="First Name *">
+                <input type="text" placeholder="Name *">
+            </div>
+            <input type="email" placeholder="E-mail *">
+            <div class="home_wti">
+                <input type="text" placeholder="Business *">
+                <input type="text" placeholder="Phone *">
+            </div>
+            <button class="home_sendbtn">Send</button>
+            <p>The personal data collected will be used by EsaLink to process the requests made and/or manage the
+                services requested. You can exercise your rights of access, rectification, opposition and portability of
+                your data in accordance with the provisions stipulated in the confidentiality policy.</p>
+        </div>
+    </section>
+
+    <footer class="wholefooter">
+        <div class="footer_div">
+            <div class="footer_sec1">
+                <img src="../images/esalink_logo_white.62726542.svg">
+                <a href=""><i class="fa-brands fa-linkedin" style="color: #58657e;"></i></a>
+                <p id="contactesaain">contact@esalink.com</p>
+                <h5>FRANCE
+                    2 rue Jules Méline, 51430 Bezannes
+                </h5>
+                <h5>UK
+                    235 Vauxhall Bridge Road, SW1V1EJ LONDON</h5>
+                <p>© Copyright 2023. All Rights Reserved</p>
+                <img src="../images/green-hosted.webp">
+            </div>
+            <div class="footer_sec2">
+                <p>ESALINK</p>
+                <h5>Solutions</h5>
+                <h5>Our Clients</h5>
+                <h5>Blog</h5>
+            </div>
+            <div class="footer_sec3">
+                <p>AND MORE...</p>
+                <h5>Join us</h5>
+                <h5>Partnerships</h5>
+            </div>
+            <div class="footer_sec4">
+                <p>LEGAL INFORMATION</p>
+                <h5>Legal Notice</h5>
+                <h5>Privacy Policy</h5>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../SCRIPT/index.js"></script>
+    <script>
+        document.querySelectorAll('.card').forEach(e => e.addEventListener('click', ()=> {
+            window.location.href = './blogape.html'
+        }))
+    </script>
+
+<script>
+    const handleScroll = () => {
+  const styleElementWhite = document.createElement('style');
+  const styleElementBlack = document.createElement('style');
+  const whiteBorderBottom = '.navButton {color: white;background-color:#ffffff56;}.factLinkContainer:hover {background-color: inherit;}.addOption {color: white;} .addOption:hover {border-bottom: 3px solid white;}';
+  const blackBorderBottom = '.navButton {color: black;background-color:#f1f5f9;}.factLinkContainer:hover {background-color: white;}.addOption {color: black;}.addOption:hover {border-bottom: 3px solid black;}';
+  styleElementWhite.textContent = whiteBorderBottom;
+  styleElementBlack.textContent = blackBorderBottom;
+  document.getElementsByClassName('logoImage')[0].src = `${window.scrollY <= 90 ? '../IMAGES/logo.svg' : '../IMAGES/scrollLogo.svg'}`
+  document.getElementById('firstSectionContainer').style.cssText = `${window.scrollY <= 90 ? 'background-color: transparent'
+    :
+    `z-index: 10;
+    color: black;
+    background-color: #ffffffe1;
+     `}`
+  document.getElementsByClassName('factLinkContainer')[0].style.cssText = `${window.scrollY <= 90 ? 'border-color: white; color: white;' : 'border-color: #80a4cb;color: #80a4cb;'}`
+  document.getElementById('body').appendChild(window.scrollY <= 90 ? styleElementWhite : styleElementBlack);
+
+};
+
+
+const hideDropdown = () => {
+  document.getElementById('dropdown1').style.display = 'none';
+}
+const hideDropdown3 = () => {
+  document.getElementById('dropdown3').style.display = 'none';
+}
+const hideDropdown2 = () => {
+  document.getElementById('dropdown2').style.display = 'none';
+}
+
+const showDropdown = () => {
+  hideDropdown2();
+  hideDropdown3();
+  document.getElementById('dropdown1').style.display = 'block';
+}
+
+
+const showDropdown2 = () => {
+  hideDropdown();
+  hideDropdown3();
+  document.getElementById('dropdown2').style.display = 'block';
+}
+
+
+const showDropdown3 = () => {
+  hideDropdown2();
+  hideDropdown();
+  document.getElementById('dropdown3').style.display = 'block';
+}
+
+  </script>
+</body>
+</html>

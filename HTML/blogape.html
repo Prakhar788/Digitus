@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | ESALINK</title>
+  <link rel="stylesheet" href="/CSS/blogpage.css">
+  <link rel="stylesheet" href="../CSS/footer.css">
+  <link rel="stylesheet" href="../CSS/secondSection.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body  id="body" onscroll="handleScroll()">
+
+    <div class="firstSec">
+        <div id='firstSectionContainer' class="firstSectionContainer">
+          <div class="navBarConntainer">
+            <div class="logo">
+              <img src="../IMAGES/logo.svg" class="logoImage" alt="">
+            </div>
+            <div class="middleOptions">
+              <div class="borderButton">
+                <a class="factLinkContainer" href="/expertise/facturation-electronique/">
+                  Electronic invoicing 2024
+                </a>
+              </div>
+              <div class="addOption" id="firstDropdownButton" onmouseover="showDropdown()">
+                <span onmouseleave="hideDropdown()" class="navBarOpt">Expertise</span>
+                <span onmouseleave="hideDropdown()" id="dropdown1"
+                  class="hover-target submenu absolute group-hover:transition duration-300 shadow-xl">
+                  <div class="dropdownContainer">
+                    <div class="firstDropdownSection">
+                      <div class="dropdownHeader">NOTRE EXPERTISE</div>
+                      <div>Optimize your B2B data exchanges to benefit your productivity in line with your sectoral
+                        requirements</div>
+                    </div>
+                    <div class="secondDropdownSection">
+                      <div>EDI- Electronic Data Interchange</div>
+                      <div>Electronic invoicing</div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+              <div class="addOption" onmouseover="showDropdown2()">
+                <span onmouseleave="hideDropdown2()" class="navBarOpt">Solutions</span>
+                <span onmouseleave="hideDropdown2()" id="dropdown2"
+                  class="hover-target submenu absolute group-hover:transition duration-300 shadow-xl">
+                  <div class="dropdownContainer">
+                    <div class="firstDropdownSection">
+                      <div class="dropdownHeader">NOS SOLUTIONS</div>
+                      <div>Catalyze collaboration within your ecosystem through a wide range of dematerialization solutions
+                        adapted to your needs</div>
+                    </div>
+                    <div class="secondDropdownSection2nd">
+                      <div>Nos solutions</div>
+                      <hr>
+                      <div class="dropdownSeperator">
+                        <div class="rightOptionsForDropdown">
+                          <div class="blackColorFont">On premise</div>
+                          <div class="yellowColorFont">TradeXpress</div>
+                          <div class="yellowColorFont">IBM Sterling</div>
+                          <div class="yellowColorFont">Cleo</div>
+                        </div>
+                        <div>
+                          <div class="blackColorFont">Cloud</div>
+                          <div class="yellowColorFont">Hubtimize®</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+              <div class="addOption" onmouseover="showDropdown3()">
+                <span onmouseleave="hideDropdown3()" class="navBarOpt">Services</span>
+                <div onmouseleave="hideDropdown3()" id="dropdown3"
+                  class="hover-target submenu absolute group-hover:transition duration-300 shadow-xl">
+                  <div class="dropdownContainer">
+                    <div class="firstDropdownSection">
+                      <div class="dropdownHeader">NOS SERVICES</div>
+                      <div>Optimize your B2B data exchanges to benefit your productivity in line with your sectoral
+                        requirements</div>
+                    </div>
+                    <div class="secondDropdownSection3rd">
+                      <div>Nos Services</div>
+                      <hr>
+                      <div class="dropdownSeperator3rd">
+                        <div class="yellowColorFontThird">TMA - Third-party application</div>
+                        <div class="yellowColorFontThird">maintenance</div>
+                        <div class="yellowColorFontThird">Management</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="addOption">
+                Blog
+              </div>
+            </div>
+            <div class="navButton">
+              Get Demo
+            </div>
+            <div class="fropt">
+              <select name="cars" id="cars">
+                <option value="volvo">FR</option>
+                <option value="saab">En</option>
+                <option value="mercedes">Tr</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="mainBodyContainer">
+    
+          <div class="imageContainer">
+            <img
+              src="https:/www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fiso-27001.c9102e6a.webp&w=1080&q=75"
+              class="webIconImage">
+          </div>
+          <h1 class="HeadingContainer">
+            Dematerialization
+            <br>
+            at the service of your business
+          </h1>
+          <div class="descriptionTextContainer">
+            Esalink supports you in the digitalization of your B2B flows
+          </div>
+          <div class="twoButttonContainer">
+            <div class="buttons">Find your EDI solution</div>
+            <div class="buttons">Switch to electronic invoicing</div>
+          </div>
+          <img src="https://www.esalink.com/_next/static/media/globe_white_block.6699e2aa.svg" class="globeIcon" alt="">
+          <div class="bottomImageIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fgenerix-white.e5ab8b0c.webp&w=256&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fcleo-white.ad4618e5.webp&w=128&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FHUBTIMIZE-white.19537ec6.webp&w=256&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fibm-white.7d4e8780.webp&w=128&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fgs1-white.c6b5f462.webp&w=128&q=75"
+              alt="" class="bottomIcons">
+            <img
+              src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Ffne-white.f8c056bc.webp&w=640&q=75"
+              alt="" class="bottomIcons">
+          </div>
+        </div>
+        
+      </div>
+
+  <div>
+    <div class="background-image">
+      <p class="para1 para-section">
+        <i class="fa fa-home"></i>
+        <a href="/"class="link-pages" style="color: white;">Welcome</a> &nbsp; > &nbsp; <a href="/" class="link-pages" style="color: white;">Blog</a> &nbsp; > &nbsp; 
+        The latest electronic invoicing calendar: the essential things to remember
+      </p>
+
+     <p class="para2 para-section">  EsaLink news, Electronic invoicing
+      <br>
+      <b class="text3">
+          The latest electronic invoicing calendar: the essential things to remember
+      </b>
+      <br><br>
+       27/10/2023
+      </p>
+    </div>
+    <div class="main-section">
+      <div class="first-section">
+        <button class="previous-page"><b class="arrow-back">&lt;</b> Return to previous page</button>
+        <p class="para-section-down">
+          The reform of <b>electronic invoicing</b> , far from being a simple trend, 
+          is emerging as an upcoming reality for companies. France, keen to 
+          offer a solid and honest <u>“Y” model</u> , recently reviewed the timetable 
+          for implementing its <b>tax dematerialization</b> reform . This change aims 
+          to ensure a <b>smooth</b> transition for businesses while strengthening the 
+          maturity of operating entities.
+          <br>
+          <br>
+          On July 28, an official message from the <b>General Directorate of Public 
+          Finance</b> indicated the delay in the general implementation of electronic 
+          invoicing, without specifying new deadlines.
+          <br>
+          <br>
+          Now the dates have been set (although they are still subject to explicit validation).
+        </p>
+        <h2 class="page-semi-title">
+          A brief reminder of the history of the electronic invoicing reform
+        </h2>
+        <p class="para-section-down">
+          In 2021, the French government launched with Ordinance <u>No. 2021-1190 of September 15, 2021</u> 
+          the ambitious project to modernize invoicing between professionals. Faced with a rapidly 
+          changing business world, the idea was to bring <b>clarity</b> and <b>productivity to B2B invoicing</b> 
+          processes while combating fraud. Thanks to close collaboration between the administration 
+          and various stakeholders, the system has been continually refined to better respond to 
+          realities on the ground.
+        </p>
+        <h2 class="page-semi-title">
+          Postponement of the initial schedule and reasons
+        </h2>
+        <p class="para-section-down">
+          The complexity and issues associated with such a change led to a major decision: to postpone 
+          (once again) the date of entry into force. After numerous consultations with professional 
+          federations and companies, it was deemed essential to guarantee a smooth transition by read 
+          justing the <b>timetable</b> of obligations concerning <b>E-Invoicing</b>.
+          <br>
+          <br>
+          The reasons for the delay in reform are mainly due to a lack of information and preparation 
+          of societies.
+          <br>
+          <br>
+          There was a misestimation of the consequences of the reform on the IT system of <b>the AIFE</b> 
+          (State Financial IT Agency).
+          <br>
+          It is also essential to ensure that the <b>PPF</b> ( <b>Public Billing Portal</b> ) can provide the required 
+          protection in the face of increased operational activities.
+          <br>
+          <b>Companies present heterogeneous</b> levels of progress regarding the adoption of the reform: 
+          a quarter of large companies reported that they would not be operational within the timeframe 
+          initially planned.
+          <br>
+          In addition, the information intended for SMEs (numbering 146,000 in France) is considered 
+          insufficient.
+        </p>
+        <h2 class="page-semi-title">
+          The new detailed electronic invoicing calendar
+        </h2>
+        <img src="https://esalink.codiceo.fr/app/uploads/2023/10/Bleu-Chronologie-Cycle-Presentation-2200-x-1080-px.png" class="image-bleu">
+        <p class="para-section-down">
+          <i>Update in October 2023 of the deadlines for Electronic Invoicing obligations</i><br><br>
+          Faced with the scale of the reform, the government, after consultation, therefore chose 
+          to postpone the date of entry into force of electronic invoicing initially planned for July 1, <b>2024</b> .
+          <br>
+          <br>
+          As part of the finance bill for 2024, amendment No. I-5395  tabled on October 17, 2023 
+          by the government postpones the deadlines for electronic invoicing between companies. 
+          The E-invoicing obligations will still apply gradually but this time from  September 1, 2026 .
+          <br>
+          <br>
+          <b>• September 1, 2026</b> for Large Businesses (initially planned for July 1, 2024).
+          <br>
+          <b>• September 1, 2026</b> for ETIs (mid-sized companies), while they were initially targeted for 
+          January 1, 2025.
+          <br>
+          <b>• September 1, 2027</b> for SMEs and micro-enterprises, delayed by one year compared to the initial
+           date of January 1, 2026.
+        </p>
+        <h2 class="page-semi-title">
+          TO REMEMBER :
+        </h2>
+        <p class="para-section-diff">
+          <b>As of 01/09/2026</b>  :
+          <br><br>
+          Obligation to receive  electronic invoices for all companies regardless of their size: <br>
+          <b> Large Companies, ETIs, SMEs, microenterprises</b> .
+          <br>
+          <b>Obligation to issue </b> electronic invoices for Large Enterprises (<b>GE</b> ) and <br>
+          Intermediate-Sized Enterprises ( <b>ETI</b> ).
+          <br>
+          <b>From 01/09/2027 </b>: obligation to issue electronic invoices for Small and <br>
+          Medium Enterprises (<b> SMEs </b>) and microenterprises.
+        </p>
+        <p class="para-section-down">
+          <i>However, it is essential to note that these dates remain subject to the final adoption of the 
+            law.</i>
+        </p>
+        <h2 class="page-semi-title">
+          The principle of electronic invoicing
+        </h2>
+        <p class="para-section-down">
+          The essence of this model is to transform paper invoices into electronic invoices through a 
+          process that complies with the <b>requirements of legal and tax regulations</b> . By this we mean 
+          not the “paper” invoice which would have simply been converted into an ordinary <b>PDF format 
+          and sent by email, but rather a file which brings together a set of data in a structured 
+          electronic format</b>. Last but not least, <b>invoices will no longer be exchanged directly 
+          between companies</b>.
+          <br>
+          <img src="https://esalink.codiceo.fr/app/uploads/2023/10/Bleu-Chronologie-Cycle-Presentation.png" class="image-bleu-second">
+          <br>
+          <i>Electronic invoicing model France</i>
+          <br><br>
+          At the heart of the Billing scheme will be the Administration's <b>Public Billing Platform (PPF)</b>. 
+          Companies, failing to be satisfied with the latter very basic, will have to resort to 
+          <b>Dematerialization Operators</b> (OD) or <b>Dematerialization Partner Platforms</b> (PDP) in order to 
+          benefit from functionalities with higher added value.
+          <br><br>
+          For more details, see our <u>Electronic invoicing page</u> .
+          <br><br>
+          <b><u>Electronic invoicing</u></b> will become the exclusive means of invoicing for all companies in France. 
+          This change represents a major challenge for <b>Administrative and Financial</b> Directors who must 
+          prepare their company for this transition.
+        </p>
+        <h2 class="page-semi-title">
+          These new deadlines concern all mandatory data flows to be transmitted to the Tax Administration.
+        </h2>
+        <p class="para-section-down">
+        <b>•  E-INVOICING</b>  : transmission of invoice data with all mandatory data defined by the reform, in 
+          transmission and reception.
+          <br><br>
+        <b>•  E-REPORTING</b> : transmission of transaction data not covered by e-invoicing in the case of 
+          exchanges involving a partner established outside France (B2B outside domestic) or a non-taxable 
+          person (B2C).
+          <br><br>
+        <b>•  LIFE CYCLE </b>: transmission of invoice processing statuses, deposited (issuer), 
+          rejected (receiver), refused (receiver), collected (issuer).
+        </p>
+        <h2 class="page-semi-title">
+          How to prepare for the electronic invoicing reform?
+        </h2>
+        <div class="content-grid">
+          <div><img src="https://esalink.codiceo.fr/app/uploads/2023/10/Bleu-Chronologie-Cycle-Presentation-1.png" class="ligth-image"></div>
+          <div>
+            <p class="para-section-down">
+              It is imperative for businesses to know their obligations . The use of appropriate 
+              dematerialization platforms and the addition of new mandatory information on invoices 
+              are key steps in addition to the security and conservation of these electronic invoices. 
+              But beyond these imperatives, it is crucial to fully understand the need to anticipate the 
+              reform for your company and to map the impact on business processes that this will cause.
+              <br><br>
+              In this sense, our experts on the subject at EsaLink offer you comprehensive support in 
+              order to make this shift more fluid.
+            </p>
+          </div>
+        </div>
+        <h3><u>Find our complete guide to Electronic Invoicing here.</u></h3>
+        <div>
+          <div>
+            <p class="para-section-down">
+              <i>
+                “The expression of this latest calendar is an important announcement for businesses. It is 
+                essential to perceive this “lag” as an opportunity to intensify preparations, rather than 
+                “additional delay” leading to postponement of consideration.
+              </i>
+            </p>
+          </div>
+          <div></div>
+        </div>
+        <p class="para-section-down">
+          <i>
+            The gain in visibility conferred by these new dates, in addition to ensuring consistency with 
+            realities on the ground, once again allows us to affirm that Electronic Invoicing is a concrete 
+            reality whose importance is no longer subjective. Ignoring this development is simply no longer 
+            an option. On the contrary, it requires serious anticipation on the part of companies, especially 
+            when we know that the adoption of this new digital practice offers above all enormous advantages: 
+            accuracy of information, optimization, speed of processing, increased transparency and better 
+            management of financial transactions. All of this constitutes an obvious lever for improvement 
+            for companies. ".
+            <br><br>
+            Eser SARIKAN, CEO d'ESALINK
+          </i>
+        </p>
+        <div>
+          <div class="para-section-diff">
+            Anticipate <b>electronic invoicing</b> with EsaLink! The transition to E-Invoicing is a central issue. 
+            For an adaptation with complete peace of mind, rely on a trusted partner who adapts to your 
+            specific needs. Our SaaS solution, <b>Hubtimize® E-invoicing</b> , combines compliance, simplicity 
+            and modernity. It integrates easily with your systems, providing complete and seamless automation. 
+            With Hubtimize®, benefit from personalized support, from audit to maintenance. <u>Discover Hubtimize® 
+            E-invoicing now!</u>
+          </div>
+          <div class="button-contact">
+            <button class="button-contact-expert">Contact an expert</button>
+          </div>
+
+          <!-- <div  id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://esalink.codiceo.fr/app/uploads/2023/09/partenariat-1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://esalink.codiceo.fr/app/uploads/2023/05/EDI.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://esalink.codiceo.fr/app/uploads/2023/04/Guide-facturation-electronique.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> -->
+
+
+        </div>
+      </div>
+      <div class="second-section">
+        <div class="search-blog-section">
+          <input type="text" placeholder="Search the blog" class="search-section">
+          <button class="search-button">Search</button>
+        </div>
+        <div>
+          <div class="item-categores-title">ITEM CATEGORIES</div>
+          <div class="item-categores-list">EsaLink News</div>
+          <hr>
+          <div class="item-categores-list">Electronic invoicing</div>
+          <hr>
+          <div class="item-categores-list">Guide</div>
+          <hr>
+          <div class="item-categores-list">The EDI</div>
+          <hr>
+        </div>
+        <div class="media-image">
+          <img src="https://www.esalink.com/_next/static/media/hubtimize_trade_optimizer.3c87333c.svg" class="image-media">
+        </div>
+        <div class="button-vertical">
+          <button class="button-design">DIGITIZE ALL YOUR B2B FLOWS</button>
+          <br>
+          <button class="button-design">DEMATERIALIZE YOUR INVOICES</button>
+        </div>
+      </div>
+    </div>
+    <p class="stay-informed" ">Stay informed of our news!</p>
+    
+    <div class="news-letter">
+      <div class="news-letter-image-box">
+        <img src="https://www.esalink.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fnewsletter.05a5db74.gif&w=640&q=75" class="news-letter-image">
+      </div>
+      <div class="news-letter-content">
+        <h3 class="news-letter-title">Inscription newsletter</h3>
+        <p class="news-letter-content-area">Click the button and enter your email to receive our latest information.</p>
+        <button class="news-letter-button">Subscribe to the newsletter</button><br><br>
+        <p class="news-letter-content-area">By transmitting your email address, you agree that the information entered will be collected, 
+          used, exploited and processed by EsaLink to enable the sending of the newsletter.</p>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <section class="home_contacter">
+    <div class="home_texter">
+        <div>
+            <span data-aos="fade-down" data-aos-duration="900"
+                class="inline-block text-xs text-gray-50 uppercase aos-init aos-animate">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">A question ? </font>
+                    <font style="vertical-align: inherit;">A project ?</font>
+                </font>
+            </span>
+        </div>
+        <h2 data-aos="fade-up" data-aos-duration="500">Enter your contact details to be quickly contacted by a
+            specialist</h2>
+        <p data-aos="fade-up" data-aos-duration="500">We are here to advise you on all your dematerialization
+            projects.</p>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="500" class="home_inputer">
+        <div class="home_wti">
+            <input type="text" placeholder="First Name *">
+            <input type="text" placeholder="Name *">
+        </div>
+        <input type="email" placeholder="E-mail *">
+        <div class="home_wti">
+            <input type="text" placeholder="Business *">
+            <input type="text" placeholder="Phone *">
+        </div>
+        <button class="home_sendbtn">Send</button>
+        <p>The personal data collected will be used by EsaLink to process the requests made and/or manage the
+            services requested. You can exercise your rights of access, rectification, opposition and portability of
+            your data in accordance with the provisions stipulated in the confidentiality policy.</p>
+    </div>
+</section>
+
+<footer class="wholefooter">
+    <div class="footer_div">
+        <div class="footer_sec1">
+            <img src="../IMAGES/esalink_logo_white.62726542.svg">
+            <a href=""><i class="fa-brands fa-linkedin" style="color: #58657e;"></i></a>
+            <p id="contactesaain">contact@esalink.com</p>
+            <h5>FRANCE
+                2 rue Jules Méline, 51430 Bezannes
+            </h5>
+            <h5>UK
+                235 Vauxhall Bridge Road, SW1V1EJ LONDON</h5>
+            <p>© Copyright 2023. All Rights Reserved</p>
+            <img src="../IMAGES/green-hosted.webp">
+        </div>
+        <div class="footer_sec2">
+            <p>ESALINK</p>
+            <h5>Solutions</h5>
+            <h5>Our Clients</h5>
+            <h5>Blog</h5>
+        </div>
+        <div class="footer_sec3">
+            <p>AND MORE...</p>
+            <h5>Join us</h5>
+            <h5>Partnerships</h5>
+        </div>
+        <div class="footer_sec4">
+            <p>LEGAL INFORMATION</p>
+            <h5>Legal Notice</h5>
+            <h5>Privacy Policy</h5>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/SCRIPT/faq.js"></script>
+
+<script>
+    const handleScroll = () => {
+  const styleElementWhite = document.createElement('style');
+  const styleElementBlack = document.createElement('style');
+  const whiteBorderBottom = '.navButton {color: white;background-color:#ffffff56;}.factLinkContainer:hover {background-color: inherit;}.addOption {color: white;} .addOption:hover {border-bottom: 3px solid white;}';
+  const blackBorderBottom = '.navButton {color: black;background-color:#f1f5f9;}.factLinkContainer:hover {background-color: white;}.addOption {color: black;}.addOption:hover {border-bottom: 3px solid black;}';
+  styleElementWhite.textContent = whiteBorderBottom;
+  styleElementBlack.textContent = blackBorderBottom;
+  document.getElementsByClassName('logoImage')[0].src = `${window.scrollY <= 90 ? '../IMAGES/logo.svg' : '../IMAGES/scrollLogo.svg'}`
+  document.getElementById('firstSectionContainer').style.cssText = `${window.scrollY <= 90 ? 'background-color: transparent'
+    :
+    `z-index: 10;
+    color: black;
+    background-color: #ffffffe1;
+     `}`
+  document.getElementsByClassName('factLinkContainer')[0].style.cssText = `${window.scrollY <= 90 ? 'border-color: white; color: white;' : 'border-color: #80a4cb;color: #80a4cb;'}`
+  document.getElementById('body').appendChild(window.scrollY <= 90 ? styleElementWhite : styleElementBlack);
+
+};
+
+
+const hideDropdown = () => {
+  document.getElementById('dropdown1').style.display = 'none';
+}
+const hideDropdown3 = () => {
+  document.getElementById('dropdown3').style.display = 'none';
+}
+const hideDropdown2 = () => {
+  document.getElementById('dropdown2').style.display = 'none';
+}
+
+const showDropdown = () => {
+  hideDropdown2();
+  hideDropdown3();
+  document.getElementById('dropdown1').style.display = 'block';
+}
+
+
+const showDropdown2 = () => {
+  hideDropdown();
+  hideDropdown3();
+  document.getElementById('dropdown2').style.display = 'block';
+}
+
+
+const showDropdown3 = () => {
+  hideDropdown2();
+  hideDropdown();
+  document.getElementById('dropdown3').style.display = 'block';
+}
+
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
