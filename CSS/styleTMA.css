@@ -396,11 +396,14 @@ html, body{
   border-radius: 7px;
   margin: 1px auto;
   padding: 2px ;
+  width:15rem;
+  padding-top: 10px;
 }
  
  .div41111{
   width: 100%;
-  height: 300px;
+  height:500px;
+  padding:15px;
   background-color: #c8bcbba9;
   border-radius: 16px;
   display: flex;
@@ -408,6 +411,7 @@ html, body{
   justify-content: center;
   align-items: center;
   gap: 10px;
+  z-index: 100;
  
 }
 .tmparthead{
@@ -425,6 +429,8 @@ html, body{
   border:none;
   border-radius: 9px;
   padding:20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 17px;
   font-weight: bold;
   background: #324055;
@@ -632,7 +638,8 @@ html, body{
 }
 
 
-.container {
+.service1 {
+  margin-top: 3rem;
     padding: 1rem;
     width: 100%;
     display: block;
@@ -646,7 +653,7 @@ html, body{
     position: relative;
     overflow: hidden;
     display: block;
-    padding-top: 6rem;
+    padding-top: 3rem;
   padding-bottom: 6rem;
   position: relative;
   overflow: hidden;
@@ -657,23 +664,27 @@ html, body{
     color: rgb(255 145 77/var(--tw-text-opacity));
     cursor: default;
     text-transform: capitalize;
-    letter-spacing: 1px;
-    font-size: 2rem;
+    /* word-spacing: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;    
+    font-size: 30px;
 }
 
 .serviceh2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 30px;
+    
 }
 
 .servicep {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
     margin-left: 2rem; /* Adjusted margin using rem unit */
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .card {
@@ -694,8 +705,11 @@ html, body{
     align-items: center;
     font-size: 2rem;
 }
-
+.cardch{
+  padding-top: 3rem;
+}
 .card-text {
+  /* padding-top: 20px; */
     margin-bottom: 1rem; /* Adjusted margin using rem unit */
     /* padding: 0.5rem; Adjusted padding using rem unit */
     font-size: 1rem;
@@ -725,6 +739,7 @@ html, body{
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 #card1 {
@@ -750,8 +765,8 @@ html, body{
 }
 
 .ser4 {
-    font-size: 1.5rem;
-    margin-left: 2%;
+  font-size: 1rem;
+  margin-left: 2%;
 }
 
 .svg11 {
@@ -767,7 +782,8 @@ html, body{
     --tw-bg-opacity: 1;
     background-color: rgb(245 245 245/var(--tw-bg-opacity));
     width: 100%;
-    border-radius: 1.2rem; /* Adjusted border-radius using rem unit */
+    height:100%
+    border-radius: 1.2rem; 
     display: block;
 }
 
@@ -790,7 +806,10 @@ html, body{
     flex-direction: column;
     cursor: pointer;
     display: flex;
+    /* padding-bottom: 20px;  */
+    margin-bottom: 2rem;
 }
+
 
 .svg4 {
     height: 5rem;
